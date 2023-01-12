@@ -1,0 +1,25 @@
+{
+  "name": "pf-vargasl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css --output-style compact",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenamelucas/PF-VargasL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codenamelucas/PF-VargasL/issues"
+  },
+  "homepage": "https://github.com/codenamelucas/PF-VargasL#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "node-sass": "^8.0.0"
+  }
+}
