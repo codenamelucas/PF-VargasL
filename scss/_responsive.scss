@@ -1,1 +1,32 @@
-/*Crear variables responsivas ejemplo: @media...*/
+/*Contactos*/
+#contactanos {
+    display: flex;
+    flex-wrap: border-box;
+}
+
+#contactanos div {
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    #contactanos div {
+        flex-basis: 90% !important;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #contactanos div {
+        flex-basis: 60% !important;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #contactanos div {
+        flex-basis: 25% !important;
+    }
+}
+
+/*Final de contactos*/
