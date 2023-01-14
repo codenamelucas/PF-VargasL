@@ -16,9 +16,6 @@ nav {
     background-image: $fondo-nav;
 }
 
-
-
-
 h1,
 h2 {
     text-align: center;
@@ -73,7 +70,6 @@ body {
 .imagenLogo:hover {
     filter: hue-rotate(260deg);
     transition: filter 3.5s ease;
-
 }
 
 td {
@@ -95,7 +91,6 @@ footer {
 }
 
 /*galeria*/
-
 .grid-row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
@@ -115,7 +110,6 @@ footer {
 }
 
 .grid-row .grid-item:hover {
-
     filter: contrast(1.9);
     transition: filter 3.5s ease;
 }
